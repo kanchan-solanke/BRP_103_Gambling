@@ -1,0 +1,21 @@
+
+var stake = 100;
+var bet = 1;
+
+console.log("Everday stake is: " + stake)
+console.log("Everday stake is: " + bet)
+
+function winLoose() {
+    let game = Math.floor(Math.random() * 2);
+
+    console.log(game)
+    if (game == 1) {
+
+        console.log("Win a game")
+    }
+    else {
+        console.log("Loose a game")
+    }
+}
+
+winLoose()
